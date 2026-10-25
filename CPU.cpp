@@ -70,15 +70,16 @@ int main(){
     CPU cpu;
     Memory mem;
 
-    cpu.registers[0] = 12;
-    cpu.registers[1] = 6;
+    // Example Program
+    // cpu.registers[0] = 12;
+    //cpu.registers[1] = 6;
 
-    cpu.ADD('A', 'B');
+    // cpu.ADD('A', 'B');
 
-    cpu.STORE(mem, 'A', 7);
-    std::cout << mem.slots[7] << '\n';
+    // cpu.STORE(mem, 'A', 7);
+    // std::cout << mem.slots[7] << '\n';
     
-    cpu.RESULT();
+    // cpu.RESULT();
 
     return 0;
 }
